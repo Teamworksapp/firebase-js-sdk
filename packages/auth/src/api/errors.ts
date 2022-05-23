@@ -189,6 +189,7 @@ export const SERVER_ERROR_MAP: Partial<ServerErrorMap<ServerError>> = {
 
   // User actions (sign-up or deletion) disabled errors.
   [ServerError.ADMIN_ONLY_OPERATION]: AuthErrorCode.ADMIN_ONLY_OPERATION,
+  [ServerError.USER_DISABLED]: AuthErrorCode.USER_DISABLED,
 
   // Multi factor related errors.
   [ServerError.INVALID_MFA_PENDING_CREDENTIAL]:
